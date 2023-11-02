@@ -1,0 +1,123 @@
+body {
+    background-image: url(img/pokemonBG.jpg);
+}
+
+
+.main img {
+    height: 100px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.tittle {
+    background-color: white;
+    padding: 20px 45px;
+    border-radius: 10%;
+}
+
+.menu button {
+    height: 35px;
+    width: 250px;
+    border: 1px black solid;
+    border-radius: 20%;
+    text-align: left;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px black solid;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    height: 435px;
+}
+
+.prevNext {
+    height: 65px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10%;
+    border: 1px black solid;
+    color: aqua;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.prev, .next {
+    display: inline-block;
+    padding: 2px 5px;
+    cursor: pointer;
+    border: 2px aqua solid;
+    border-radius: 7%;
+}
+
+.prev {
+    margin: 13px 21px;
+}
+
+.prev:hover, .next:hover {
+    color: white;
+    background-color: aqua;
+}
+
+.cardDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card {
+    height: auto;
+    width: 300px;
+    background-color: white;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.card button {
+    height: 40px;
+    width: 120px;
+    color: aqua;
+    background-color: white;
+    border: aqua 2px solid;
+    border-radius: 8%;
+    font-size: 27px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    color: white;
+    background-color: aqua;
+}
+
+.card h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.card img {
+    width: 35px;
+    height: 40px;
+}
+
+.card ul {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
