@@ -104,8 +104,6 @@ next.onclick = function()
     offset = offset + 10;
     ClearList()
     LoadData()
-    console.log(url + offset)
 }
-
 
 LoadData();
