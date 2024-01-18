@@ -15,14 +15,14 @@ body {
 .tittle {
     background-color: white;
     padding: 20px 45px;
-    border-radius: 10%;
+    border-radius: 20px;
 }
 
 .menu button {
     height: 35px;
     width: 250px;
     border: 1px black solid;
-    border-radius: 20%;
+    border-radius: 10px;
     text-align: left;
     cursor: pointer;
 }
